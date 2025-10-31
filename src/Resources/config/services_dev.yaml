@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Tourze\FreightTemplateBundle\DataFixtures\FreightTemplateFixtures:
+    public: true
+    tags: ['doctrine.fixture.orm']
