@@ -30,7 +30,7 @@
     "tourze/doctrine-timestamp-bundle": "0.0.*",
     "tourze/doctrine-track-bundle": "0.1.*",
     "tourze/doctrine-user-bundle": "0.0.*",
-    "tourze/easy-admin-enum-field-bundle": "0.0.*",
+    "tourze/easy-admin-enum-field-bundle": "1.0.*",
     "tourze/easy-admin-menu-bundle": "0.1.*",
     "tourze/enum-extra": "1.*",
     "tourze/product-core-bundle": "0.0.*",
