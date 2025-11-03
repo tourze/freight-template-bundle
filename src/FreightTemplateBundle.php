@@ -10,6 +10,7 @@ use Tourze\DoctrineSnowflakeBundle\DoctrineSnowflakeBundle;
 use Tourze\DoctrineTimestampBundle\DoctrineTimestampBundle;
 use Tourze\DoctrineTrackBundle\DoctrineTrackBundle;
 use Tourze\DoctrineUserBundle\DoctrineUserBundle;
+use Tourze\EasyAdminMenuBundle\EasyAdminMenuBundle;
 use Tourze\ProductCoreBundle\ProductCoreBundle;
 
 class FreightTemplateBundle extends Bundle implements BundleDependencyInterface
@@ -24,6 +25,7 @@ class FreightTemplateBundle extends Bundle implements BundleDependencyInterface
             DoctrineTimestampBundle::class => ['all' => true],
             DoctrineTrackBundle::class => ['all' => true],
             DoctrineUserBundle::class => ['all' => true],
+            EasyAdminMenuBundle::class => ['all' => true],
         ];
     }
 }
